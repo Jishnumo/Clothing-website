@@ -53,6 +53,7 @@ nav{
 
 /*head starts*/
 header{
+
   margin-left: 5rem;
   padding: 20px;
 }
@@ -103,7 +104,7 @@ div p{
   cursor: pointer;
 }
 .b1:hover{
-  border: 2px solid var(--main-color);
+  border: 1px solid var(--main-color);
   height: 50px;
   background-color: white ;
   font-family: var(--primary-font);
@@ -114,10 +115,10 @@ div p{
   font-weight: bolder;
   cursor: pointer;
   transition: ease-out;
-  transition-duration: 1s;
+  transition-duration: .5s;
 }
 .b2:hover{
-  border: 2px solid var(--main-color);
+  border: 1px solid var(--main-color);
   height: 50px;
   background-color: var(--main-color);
   font-family: var(--primary-font);
@@ -128,5 +129,21 @@ div p{
   font-weight: bolder;
   cursor: pointer;
   transition: ease-out;
-  transition-duration: 1s;
+  transition-duration: .5s;
+}
+div.img-container{
+
+  border-radius:  50%;
+  box-shadow: 8px 10px 18px rgba(0, 0, 0, 0.346);
+}
+div.headimg{
+  border-radius: 100%;
+  background-image: url(img1.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+.heading.img-container{
+  display: flex;
 }
