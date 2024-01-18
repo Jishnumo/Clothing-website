@@ -107,7 +107,7 @@ header .heading{
   margin-top: 1.1rem;
 }
 .b1{
-  border: 2px solid var(--main-color);
+  border: 1px solid var(--main-color);
   height: 50px;
   font-family: var(--primary-font);
   font-size: 1.02rem;
@@ -120,7 +120,7 @@ header .heading{
 }
 .b2{
   margin-left: 1.3rem;
-  border: 2px solid var(--main-color);
+  border: 1px solid var(--main-color);
   height: 50px;
   font-family: var(--primary-font);
   font-size: 1.02rem;
@@ -240,6 +240,7 @@ main{
   margin: 4rem;
   display: flex;
   justify-content: space-around;
+  height: 80vh;
 }
 main .mnimg{
   animation: ani1 8s infinite;
@@ -288,4 +289,13 @@ div .detail{
   cursor: pointer;
   transition: ease-out;
   transition-duration: .5s;
+}
+section.products{
+  text-align: center;
+  font-family: var(--primary-font);
+  height:90vh;
+}
+section.products button{
+  margin-top: 2rem;
+  
 }
