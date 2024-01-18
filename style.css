@@ -297,5 +297,31 @@ section.products{
 }
 section.products button{
   margin-top: 2rem;
-  
+  margin-left: 30px;
+  border: 1px solid var(--main-color);
+  height: 50px;
+  background-color: white ;
+  font-family: var(--primary-font);
+  font-size: 1.02rem;
+  width: 140px;
+  border-radius: 10px;
+  color: var(--main-color);
+  font-weight: bolder;
+  cursor: pointer;
+  transition: ease-out;
+  transition-duration: .5s;
+}
+section.products button:hover{
+  border: 1px solid var(--main-color);
+  height: 50px;
+  background-color: var(--main-color);
+  font-family: var(--primary-font);
+  font-size: 1.02rem;
+  width: 140px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: ease-out;
+  transition-duration: .5s;
 }
