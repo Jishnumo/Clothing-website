@@ -73,7 +73,7 @@ header .heading{
 .intro p{
   margin-top:1rem;
   max-width: 500px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: rgba(83, 55, 55, 0.851);
 }
 .button{
@@ -133,15 +133,6 @@ header .heading{
 }
 
 div.headimg{
-  animation: ani1  8s infinite;
-  
-}
-
-
-
-@keyframes ani1 {
-  0%{
-      
   box-shadow: 4px 7px 5px 2px #4f2910ed;
   border-radius: 100%;
   background-image: url(img1.jpg);
@@ -150,6 +141,22 @@ div.headimg{
   height: 400px;
   width: 400px;
   margin-top: -30px;
+  
+}
+div.headimg:hover{
+  background-image: url(img1mirror.jpg);
+  background-position:top;
+  background-size: cover;
+  transition: ease-in;
+  transition-duration: .3s;
+}
+
+
+
+/*@keyframes ani1 {
+  0%{
+      
+
   }
   50%{
     background-image: url(img1mirror.jpg);
@@ -171,4 +178,48 @@ div.headimg{
   }
 
   
+}*/
+/*header ends*/
+/*main section starts*/
+main{
+  margin: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
+main .mnimg{
+  background-image: url(main\ image.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+}
+main .hdg{
+  font-size: 1.6rem;
+  font-style: var(--main-font);
+  color: black;
+}
+main .hdg span{
+  color: rgb(90, 88, 88);
+}
+main .import{
+  margin-top:1.2rem;
+}
+div .detail{
+  margin-top:1rem;
+  max-width: 500px;
+  font-size: 1.2rem;
+  color: rgba(83, 55, 55, 0.851);
+}
+.check{
+  border: 2px solid var(--main-color);
+  height: 50px;
+  font-family: var(--primary-font);
+  font-size: 1.02rem;
+  width: 140px;
+  background-color: #239b7e;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
 }
