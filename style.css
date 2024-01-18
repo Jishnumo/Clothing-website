@@ -153,32 +153,60 @@ div.headimg:hover{
 
 
 
-/*@keyframes ani1 {
-  0%{
-      
-
-  }
-  50%{
-    background-image: url(img1mirror.jpg);
-    background-position:top;
+@keyframes ani1 {
+  0% {
+    background-image: url(main22.webp);
+    background-position: center;
     background-size: cover;
-    transition: ease-in;
-    transition-duration: .3s;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
   }
-  100%{
-         
-  box-shadow: 4px 7px 5px 2px #4f2910ed;
-  border-radius: 100%;
-  background-image: url(img1.jpg);
-  background-position: top;
-  background-size: cover;
-  height: 400px;
-  width: 400px;
-  margin-top: -30px;
+  5% {
+    background-image: url(main22.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
   }
-
-  
-}*/
+  20% {
+    background-image: url(main5.webp);
+    background-position: center;
+    background-size: cover;
+  }
+  40% {
+    background-image: url(main6.webp);
+    background-position: top;
+    background-size: cover;
+  }
+  60% {
+    background-image: url(main3.webp);
+    background-position: bottom;
+    background-size: cover;
+  }
+  80% {
+    background-image: url(main4.webp);
+    background-position: top;
+    background-size: cover;
+  }
+  95% {
+    background-image: url(main22.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+  }
+  100% {
+    background-image: url(main22.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+  }
+}
 /*header ends*/
 /*main section starts*/
 main{
@@ -187,12 +215,8 @@ main{
   justify-content: space-around;
 }
 main .mnimg{
-  background-image: url(main\ image.jpg);
-  background-size: cover;
-  background-position: top;
-  height: 400px;
-  width: 400px;
-  border-radius: 100%;
+  animation: ani1 8s infinite;
+  box-shadow: 4px 7px 5px 2px #646261de;
 }
 main .hdg{
   font-size: 1.6rem;
@@ -212,6 +236,7 @@ div .detail{
   color: rgba(83, 55, 55, 0.851);
 }
 .check{
+  margin-top:1.1rem;
   border: 2px solid var(--main-color);
   height: 50px;
   font-family: var(--primary-font);
@@ -222,4 +247,18 @@ div .detail{
   color: white;
   font-weight: bolder;
   cursor: pointer;
+}
+.check:hover{
+  border: 1px solid var(--main-color);
+  height: 50px;
+  background-color: white ;
+  font-family: var(--primary-font);
+  font-size: 1.02rem;
+  width: 140px;
+  border-radius: 10px;
+  color: var(--main-color);
+  font-weight: bolder;
+  cursor: pointer;
+  transition: ease-out;
+  transition-duration: .5s;
 }
