@@ -97,6 +97,7 @@ header .heading{
   color: rgb(90, 88, 88);
 }
 .intro p{
+  font-family: var(--primary-font);
   margin-top:1rem;
   max-width: 500px;
   font-size: 1.2rem;
@@ -242,7 +243,6 @@ main{
 }
 main .mnimg{
   animation: ani1 8s infinite;
-  box-shadow: 4px 7px 5px 2px #646261de;
 }
 main .hdg{
   font-size: 1.6rem;
@@ -256,6 +256,7 @@ main .import{
   margin-top:1.2rem;
 }
 div .detail{
+  font-family: var(--primary-font);
   margin-top:1rem;
   max-width: 500px;
   font-size: 1.2rem;
