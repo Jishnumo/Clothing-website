@@ -34,6 +34,32 @@ nav{
   font-size: large;
   font-weight: bold;
 }
+.icons{
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:var(--main-color);
+  cursor: pointer;
+}
+.fa-house{
+  margin-left:.8rem;
+}
+.fa-house:hover{
+  color: #064334;
+}
+.fa-cart-shopping:hover{
+  color: #064334;
+}
+.fa-phone:hover{
+  color: #064334;
+}
+.fa-magnifying-glass:hover{
+  color: #064334;
+}
+i{
+  margin-left: 3.9rem;
+}
 .menu{
   margin-right: 4rem;
   flex-direction: column;
