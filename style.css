@@ -10,73 +10,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+  --main-color: #239b7e;
+  --main-font: "Playfair Display SC", serif;
+  --primary-font: "Roboto", sans-serif;
+}
 body{
   background-color:#D0F0C0
 }
 /*navigation starts*/
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 5rem;
-    font-family: var(--primary-font);
-    font-weight: bold;
-}
-.menu{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    
-
-}
-.menu span{
-    border: 3px solid var(--main-color);
-    width: 40px;
-    height: 1px;
-    margin:2px;
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding:2rem;
 }
 
-:root {
-    --main-color: #239b7e;
-    --main-font: "Playfair Display SC", serif;
-    --primary-font: "Roboto", sans-serif;
-  }
-  header{
-    font-family: var(--main-font);
-    padding: 160px;
-  }
-  h1.one{
-    color:rgb(68, 65, 65);
-    font-weight: bolder;
-    font-size: 3.6rem;
-    
-  }
-  h1.two{
-    color:black;
-    font-weight: bolder;
-    font-size: 3.6rem;
-    padding-top:10px;
-    
-  }
-  .subhding p{
-    color: rgba(128, 128, 128, 0.94);
-    max-width:600px;
-    font-family: sans-serif;
-    font-weight: lighter;
-    font-size:17px;
-  }
-  header{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-  button{
-    border: 1px solid var(--main-color);
-    width:90px;
-    height:30px;
-
-  }
