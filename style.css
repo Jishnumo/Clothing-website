@@ -294,6 +294,7 @@ section.products{
   text-align: center;
   font-family: var(--primary-font);
   height:90vh;
+  margin-bottom:2rem;
 }
 section.products button{
   margin-top: 2rem;
@@ -324,10 +325,4 @@ section.products button:hover{
   cursor: pointer;
   transition: ease-out;
   transition-duration: .5s;
-}
-div.imgcont{
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
 }
