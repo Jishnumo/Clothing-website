@@ -325,3 +325,9 @@ section.products button:hover{
   transition: ease-out;
   transition-duration: .5s;
 }
+div.imgcont{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
