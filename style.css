@@ -444,7 +444,13 @@ footer h1{
 footer .workin p{
   text-align: center;
 }
-div .copyright{
+div.copyright{
   text-align: center;
+}
+hr{
+  color: #239b7e;
+}
+.copyright span{
+  font-weight: bolder;
 }
 
