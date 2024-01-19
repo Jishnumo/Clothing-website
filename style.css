@@ -423,6 +423,11 @@ section.customers{
   font-size:20px;
 }
 footer{
+  color: white;
+  background-color: #239b7e;
+  background-image :linear-gradient(315deg, #239b7e 0%, #000000b0 74%);
+}
+footer .footm{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -439,3 +444,7 @@ footer h1{
 footer .workin p{
   text-align: center;
 }
+div .copyright{
+  text-align: center;
+}
+
