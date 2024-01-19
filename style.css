@@ -16,7 +16,7 @@
   --primary-font: "Roboto", sans-serif;
 }
 body{
-  background-color:#D0F0C0;
+  background-color: #d0f0c0a4 ;
 }
 /*navigation starts*/
 nav{
@@ -290,6 +290,9 @@ div .detail{
   transition: ease-out;
   transition-duration: .5s;
 }
+sectiom{
+  font-family: var(--primary-font);
+}
 section.products{
   text-align: center;
   font-family: var(--primary-font);
@@ -325,4 +328,26 @@ section.products button:hover{
   cursor: pointer;
   transition: ease-out;
   transition-duration: .5s;
+}
+.productcontainer{
+  margin-top:80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left:16rem;
+  max-width: 1050px;
+}
+.productcontainer img{
+  width:230px;
+  height: 200px;
+  margin: 50px;
+}
+
+.productcontainer img:hover{
+  scale:1.1;
+  filter: opacity(75%);
+}
+.productcontainer a{
+  color: var(--main-color);
 }
