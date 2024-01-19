@@ -391,9 +391,51 @@ div h4{
   border-radius: 20px;
 }
 section.customers{
-  height: 100vh;
+  height: 120vh;
   font-family: var(--primary-font);
   margin-top:5rem;
   text-align: center;
   font-size: 1.35rem;
+}
+.cusmain{
+  padding:80px;
+  margin-top:6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cusmain img{
+  height:200px;
+  width: 200px;
+  background-position: top;
+  background-size: cover;
+  border-radius: 100%;
+}
+.cusmain h1{
+  padding-top:1.9rem;
+  font-family: var(--main-font);
+  font-size:1.8rem;
+}
+
+.cusmain p{
+  font-family: var(--primary-font);
+  max-width: 250px;
+  font-size:20px;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: #239b7e;
+  background-image :linear-gradient(315deg, #239b7e 0%, #000000b0 74%);
+  height: 60vh;
+  background-attachment: fixed;
+}
+footer h1{
+  font-size: 2.4rem;
+  padding-bottom: 20px;
+}
+footer .workin p{
+  text-align: center;
 }
