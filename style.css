@@ -290,13 +290,12 @@ div .detail{
   transition: ease-out;
   transition-duration: .5s;
 }
-sectiom{
-  font-family: var(--primary-font);
-}
+
 section.products{
   text-align: center;
   font-family: var(--primary-font);
-  height:90vh;
+  height:150vh;
+  font-size: 1.35rem;
   margin-bottom:2rem;
 }
 section.products button{
@@ -331,11 +330,12 @@ section.products button:hover{
 }
 .productcontainer{
   margin-top:80px;
+  font-size: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-left:16rem;
+  margin-left:15rem;
   max-width: 1050px;
 }
 .productcontainer img{
@@ -344,12 +344,56 @@ section.products button:hover{
   margin: 50px;
 }
 
+
 .productcontainer img:hover{
   scale:1.1;
   filter: opacity(75%);
 }
 .productcontainer a{
   color: var(--main-color);
-  text-decoration: none;
-  border-bottom: 1px solid var(--main-color);
+  
+}
+div h4{
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.maincontainer1{
+  background-color: rgba(127, 255, 212, 0.119);
+  margin:20px;
+  border-radius: 20px;
+}
+.maincontainer2{
+  background-color: rgba(127, 255, 212, 0.119);
+  margin:20px;
+  border-radius: 20px;
+}
+.maincontainer3{
+  background-color: rgba(127, 255, 212, 0.119);
+  margin:20px;
+  border-radius: 20px;
+}
+.maincontainer4{
+  background-color: rgba(127, 255, 212, 0.119);
+  margin:20px;
+  border-radius: 20px;
+}
+.maincontainer5{
+  background-color: rgba(127, 255, 212, 0.119);
+  margin:20px;
+  border-radius: 20px;
+}
+.maincontainer6{
+  background-color: rgba(127, 255, 212, 0.119);
+  margin:20px;
+  border-radius: 20px;
+}
+section.customers{
+  height: 100vh;
+  font-family: var(--primary-font);
+  margin-top:5rem;
+  text-align: center;
+  font-size: 1.35rem;
 }
