@@ -339,8 +339,8 @@ section.products button:hover{
   max-width: 1050px;
 }
 .productcontainer img{
-  width:230px;
-  height: 200px;
+  width: 175px;
+  height: 200px;;
   margin: 50px;
 }
 
@@ -350,4 +350,6 @@ section.products button:hover{
 }
 .productcontainer a{
   color: var(--main-color);
+  text-decoration: none;
+  border-bottom: 1px solid var(--main-color);
 }
