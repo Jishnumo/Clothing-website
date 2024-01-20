@@ -454,3 +454,35 @@ hr{
   font-weight: bolder;
 }
 
+@media only screen and (max-width: 900px) {
+  header {
+    height: 120vh;
+    text-align: center;
+  }
+  .main-hding{
+    height: 70vh;
+  }
+  .headimg{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+  }
+  main{
+  height: 100vh;
+  }
+  .mnimg {
+    margin-top: 45rem;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+  }
+  .import{
+    margin-right: 3.4rem;
+    text-align: center;
+  }
+  section.products{
+    margin-top: 30rem;
+
+
+}
+
