@@ -5,80 +5,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 
 /*reset*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
   --main-color: #239b7e;
   --main-font: "Playfair Display SC", serif;
   --primary-font: "Roboto", sans-serif;
 }
-body{
-  background-color: #d0f0c0a4 ;
+body {
+  background-color: #d0f0c0a4;
 }
 /*navigation starts*/
-nav{
+nav {
   font-family: var(--primary-font);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  padding:2rem;
+  padding: 2rem;
   margin-bottom: 4rem;
 }
-.logo{
+.logo {
   margin-left: 4rem;
   font-size: large;
   font-weight: bold;
 }
-.icons{
+.icons {
   font-size: 1.3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color:var(--main-color);
+  color: var(--main-color);
   cursor: pointer;
 }
-.fa-house{
-  margin-left:.8rem;
+.fa-house {
+  margin-left: 0.8rem;
 }
-.fa-house:hover{
+.fa-house:hover {
   color: #064334;
 }
-.fa-cart-shopping:hover{
+.fa-cart-shopping:hover {
   color: #064334;
 }
-.fa-phone:hover{
+.fa-phone:hover {
   color: #064334;
 }
-.fa-magnifying-glass:hover{
+.fa-magnifying-glass:hover {
   color: #064334;
 }
-i{
+i {
   margin-left: 3.9rem;
 }
-.menu{
+.menu {
   margin-right: 4rem;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-.menu span{
+.menu span {
   border: 3px solid #239b7e;
   width: 40px;
   height: 2px;
-  margin: 3px
-
+  margin: 3px;
 }
 /*navigantion end*/
 
 /*head starts*/
-header{
+header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -86,27 +84,26 @@ header{
   margin-left: 5rem;
   padding: 20px;
 }
-header .heading{
+header .heading {
   font-size: 1.6rem;
   font-style: var(--main-font);
   color: black;
 }
-  
 
-.heading span{
+.heading span {
   color: rgb(90, 88, 88);
 }
-.intro p{
+.intro p {
   font-family: var(--primary-font);
-  margin-top:1rem;
+  margin-top: 1rem;
   max-width: 500px;
   font-size: 1.2rem;
   color: rgba(83, 55, 55, 0.851);
 }
-.button{
+.button {
   margin-top: 1.1rem;
 }
-.b1{
+.b1 {
   border: 1px solid var(--main-color);
   height: 50px;
   font-family: var(--primary-font);
@@ -118,7 +115,7 @@ header .heading{
   font-weight: bolder;
   cursor: pointer;
 }
-.b2{
+.b2 {
   margin-left: 1.3rem;
   border: 1px solid var(--main-color);
   height: 50px;
@@ -130,10 +127,10 @@ header .heading{
   font-weight: bolder;
   cursor: pointer;
 }
-.b1:hover{
+.b1:hover {
   border: 1px solid var(--main-color);
   height: 50px;
-  background-color: white ;
+  background-color: white;
   font-family: var(--primary-font);
   font-size: 1.02rem;
   width: 140px;
@@ -142,9 +139,9 @@ header .heading{
   font-weight: bolder;
   cursor: pointer;
   transition: ease-out;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
-.b2:hover{
+.b2:hover {
   border: 1px solid var(--main-color);
   height: 50px;
   background-color: var(--main-color);
@@ -156,10 +153,10 @@ header .heading{
   font-weight: bolder;
   cursor: pointer;
   transition: ease-out;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
-div.headimg{
+div.headimg {
   box-shadow: 4px 7px 5px 2px #4f2910ed;
   border-radius: 100%;
   background-image: url(img1.jpg);
@@ -168,17 +165,14 @@ div.headimg{
   height: 400px;
   width: 400px;
   margin-top: -30px;
-  
 }
-div.headimg:hover{
+div.headimg:hover {
   background-image: url(img1mirror.jpg);
-  background-position:top;
+  background-position: top;
   background-size: cover;
   transition: ease-in;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
-
-
 
 @keyframes ani1 {
   0% {
@@ -236,35 +230,35 @@ div.headimg:hover{
 }
 /*header ends*/
 /*main section starts*/
-main{
+main {
   margin: 4rem;
   display: flex;
   justify-content: space-around;
   height: 80vh;
 }
-main .mnimg{
+main .mnimg {
   animation: ani1 8s infinite;
 }
-main .hdg{
+main .hdg {
   font-size: 1.6rem;
   font-style: var(--main-font);
   color: black;
 }
-main .hdg span{
+main .hdg span {
   color: rgb(90, 88, 88);
 }
-main .import{
-  margin-top:1.2rem;
+main .import {
+  margin-top: 1.2rem;
 }
-div .detail{
+div .detail {
   font-family: var(--primary-font);
-  margin-top:1rem;
+  margin-top: 1rem;
   max-width: 500px;
   font-size: 1.2rem;
   color: rgba(83, 55, 55, 0.851);
 }
-.check{
-  margin-top:1.1rem;
+.check {
+  margin-top: 1.1rem;
   border: 2px solid var(--main-color);
   height: 50px;
   font-family: var(--primary-font);
@@ -276,10 +270,10 @@ div .detail{
   font-weight: bolder;
   cursor: pointer;
 }
-.check:hover{
+.check:hover {
   border: 1px solid var(--main-color);
   height: 50px;
-  background-color: white ;
+  background-color: white;
   font-family: var(--primary-font);
   font-size: 1.02rem;
   width: 140px;
@@ -288,22 +282,22 @@ div .detail{
   font-weight: bolder;
   cursor: pointer;
   transition: ease-out;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
-section.products{
+section.products {
   text-align: center;
   font-family: var(--primary-font);
-  height:150vh;
+  height: 150vh;
   font-size: 1.35rem;
-  margin-bottom:2rem;
+  margin-bottom: 2rem;
 }
-section.products button{
+section.products button {
   margin-top: 2rem;
   margin-left: 30px;
   border: 1px solid var(--main-color);
   height: 50px;
-  background-color: white ;
+  background-color: white;
   font-family: var(--primary-font);
   font-size: 1.02rem;
   width: 140px;
@@ -312,9 +306,9 @@ section.products button{
   font-weight: bolder;
   cursor: pointer;
   transition: ease-out;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
-section.products button:hover{
+section.products button:hover {
   border: 1px solid var(--main-color);
   height: 50px;
   background-color: var(--main-color);
@@ -326,131 +320,129 @@ section.products button:hover{
   font-weight: bolder;
   cursor: pointer;
   transition: ease-out;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
-.productcontainer{
-  margin-top:80px;
+.productcontainer {
+  margin-top: 80px;
   font-size: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-left:15rem;
+  margin-left: 15rem;
   max-width: 1050px;
 }
-.productcontainer img{
+.productcontainer img {
   width: 175px;
-  height: 200px;;
+  height: 200px;
   margin: 50px;
 }
 
-
-.productcontainer img:hover{
-  scale:1.1;
+.productcontainer img:hover {
+  scale: 1.1;
   filter: opacity(75%);
 }
-.productcontainer a{
+.productcontainer a {
   color: var(--main-color);
-  
 }
-div h4{
+div h4 {
   text-align: start;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.maincontainer1{
+.maincontainer1 {
   background-color: rgba(127, 255, 212, 0.119);
-  margin:20px;
+  margin: 20px;
   border-radius: 20px;
 }
-.maincontainer2{
+.maincontainer2 {
   background-color: rgba(127, 255, 212, 0.119);
-  margin:20px;
+  margin: 20px;
   border-radius: 20px;
 }
-.maincontainer3{
+.maincontainer3 {
   background-color: rgba(127, 255, 212, 0.119);
-  margin:20px;
+  margin: 20px;
   border-radius: 20px;
 }
-.maincontainer4{
+.maincontainer4 {
   background-color: rgba(127, 255, 212, 0.119);
-  margin:20px;
+  margin: 20px;
   border-radius: 20px;
 }
-.maincontainer5{
+.maincontainer5 {
   background-color: rgba(127, 255, 212, 0.119);
-  margin:20px;
+  margin: 20px;
   border-radius: 20px;
 }
-.maincontainer6{
+.maincontainer6 {
   background-color: rgba(127, 255, 212, 0.119);
-  margin:20px;
+  margin: 20px;
   border-radius: 20px;
 }
-section.customers{
+section.customers {
   height: 120vh;
   font-family: var(--primary-font);
-  margin-top:5rem;
+  margin-top: 5rem;
   text-align: center;
   font-size: 1.35rem;
 }
-.cusmain{
-  padding:80px;
-  margin-top:6rem;
+.cusmain {
+  padding: 80px;
+  margin-top: 6rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.cusmain img{
-  height:200px;
+.cusmain img {
+  height: 200px;
   width: 200px;
   background-position: top;
   background-size: cover;
   border-radius: 100%;
 }
-.cusmain h1{
-  padding-top:1.9rem;
+.cusmain h1 {
+  padding-top: 1.9rem;
   font-family: var(--main-font);
-  font-size:1.8rem;
+  font-size: 1.8rem;
 }
 
-.cusmain p{
+.cusmain p {
   font-family: var(--primary-font);
   max-width: 250px;
-  font-size:20px;
+  font-size: 20px;
 }
-footer{
+footer {
   color: white;
   background-color: #239b7e;
-  background-image :linear-gradient(315deg, #239b7e 0%, #000000b0 74%);
+  background-image: linear-gradient(315deg, #239b7e 0%, #000000b0 74%);
 }
-footer .footm{
+footer .footm {
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: white;
   background-color: #239b7e;
-  background-image :linear-gradient(315deg, #239b7e 0%, #000000b0 74%);
+  background-image: linear-gradient(315deg, #239b7e 0%, #000000b0 74%);
   height: 60vh;
   background-attachment: fixed;
 }
-footer h1{
+footer h1 {
   font-size: 2.4rem;
   padding-bottom: 20px;
 }
-footer .workin p{
+footer .workin p {
   text-align: center;
 }
-div.copyright{
+div.copyright {
   text-align: center;
 }
-hr{
+hr {
   color: #239b7e;
 }
-.copyright span{
+.copyright span {
   font-weight: bolder;
 }
 
@@ -459,16 +451,16 @@ hr{
     height: 120vh;
     text-align: center;
   }
-  .main-hding{
+  .main-hding {
     height: 70vh;
   }
-  .headimg{
+  .headimg {
     height: 200px;
     width: 200px;
     text-align: center;
   }
-  main{
-  height: 100vh;
+  main {
+    height: 100vh;
   }
   .mnimg {
     margin-top: 45rem;
@@ -476,11 +468,11 @@ hr{
     height: 200px;
     width: 200px;
   }
-  .import{
+  .import {
     margin-right: 3.4rem;
     text-align: center;
   }
-  section.products{
+  section.products {
     margin-top: 30rem;
-  }}
-
+  }
+}
